@@ -1,0 +1,385 @@
+/*general*/
+body{
+    background: #F5F5F5;
+}
+
+header{
+    background-color:#F5EFEF;
+    height: 110px;
+    padding: 40px 101px;    
+    align-items: center;
+    margin-bottom: 100px;
+}
+
+.header.content {
+    max-width: 1238px;
+    width: 90%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+nav{
+    display: flex;
+    justify-content: flex-end;
+}
+
+ul{
+    display: flex;
+    width:598px;
+    justify-content: space-between;
+    align-items:center;
+    gap: 48px;
+    align-items: center;
+    font-family: 'Cinzel-400', serif;
+}
+
+ul a{
+    text-decoration: none;
+}
+
+footer{
+    background: #F5EFEF;
+    height: 300px;
+    display: flex;
+    justify-content: space-between;
+    padding: 60px 100px;
+}
+
+.fyh{
+    margin: 0 0 50px
+}
+
+.fb{
+    padding: 30px;
+}
+
+.right{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-around;
+    gap: 150px;
+}
+
+.info {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.info a{
+    text-decoration: none;
+}
+
+.contact{
+    display:flex;
+    flex-direction: column;
+    gap: 36px;
+    font-family:"Cinzel-400", serif;
+}
+
+.contact img{
+    padding-right: 20px;
+}
+
+li a:visited {
+    color: #75464A;
+}
+
+/*home*/
+
+.home.title{
+    width: 174px;
+    font-weight: 700px;
+    size: 18px;
+    height: 24px;
+    margin-right: 120px;
+    font-family: 'Cinzel-700', serif;
+}
+
+.cards{    
+    display: flex;
+    justify-content: space-around;
+    gap: 105px;
+    margin: 100px 105px;
+}
+
+.card {
+    background-color: #F5EFEF;
+    background-size: 343px 532px;
+    border-radius: 9.5px;
+    border-bottom:#75464A;
+    bottom: 1px;
+}
+
+.cards img{   
+    padding: 20px 20px;
+}
+
+.card.cont{
+   display: flex;
+   flex-direction: row;
+   align-content: space-between;
+   font-family: 'Cinzel-700', serif;
+}
+
+button{
+    width: 159px;
+    height: 38px;
+    background: #3F3232;
+    border-radius: 10px;
+    cursor:pointer;
+}
+
+.button{
+    display: flex;
+    justify-content:flex-end;
+    margin-right:29px;
+    
+}
+
+.button p{
+    display: flex;
+    align-items: center;
+    width:130px;
+    height:36px;
+    size: 12px;
+    line-height: 16px;
+    font-weight: 700px;
+    color: #F5EFEF;
+}
+
+.section-button{
+    display:flex;
+    justify-content:flex-end;
+    margin: auto 150px 100px;
+}
+.section-button button{
+    width: 237px;
+    height: 63px;
+    background: #3F3232;
+    border-radius: 10px;
+    font-weight: 700;
+    font-size: 20px;
+    font-family:"Cinzel-700", serif;
+    
+}
+
+.section-button a{
+     color: #FFFFFF;
+}
+
+/*gallery*/
+
+.gallery.sec{
+    max-width: 1210px;
+    width: 90%;
+    display: flex;
+    padding: 50px 120px; 
+}
+
+.gallery{
+    margin: 80px 200px;
+    display: flex;
+    justify-content: center;
+    flex-flow: column wrap;
+    flex-direction: row;
+    align-content: space-around;
+    gap: 155px;
+    padding-bottom: 400px;   
+}
+
+.gallery.title{
+    width: 146px;
+    height: 24px;
+    font-weight: 700px;
+    size: 18px;
+    line-height: 25px;
+    color: black;  
+    font-family:"Cinzel-700", serif;
+}
+
+.gallery img:hover{
+    filter: drop-shadow(0px 0px 20px rgba(0, 0, 0, 0.25));
+}
+
+/* about */
+
+.about.title{
+    width: 98px;
+    height: 24px;
+    font-weight: 700px;
+    line-height: 24px;
+    color: black;
+    padding-bottom: 90px;
+    font-family:"Cinzel-700", serif;
+}
+
+h1{
+    margin-left: 200px;
+}
+
+.about.content{
+    display: flex;
+    flex-direction: column;
+    gap:248px;
+}
+
+.paragraph1{
+    display: flex;
+    align-items:center;
+    gap:150px;
+    justify-content: space-evenly;
+    padding-bottom: 150px;
+    padding-top: 60px;
+}
+
+.paragraph2{
+    display: flex;
+    align-items:center;
+    gap:150px;
+    justify-content: space-evenly;
+    margin-bottom: 400px;
+}
+
+.par{
+    width: 704px;
+    height: 353px;
+    font-weight: 400px;
+    size: 18px;
+    line-height: 28px;
+    color: black;
+    font-family:"Cinzel-400", serif;
+}
+/*faq*/
+
+.faq{
+    max-width: 1030px;
+    margin: 171px 0 258px 236px ;
+}
+
+.faq.sec{
+    height: 500px;
+    margin-left: 227px;
+    display: flex;
+    flex-direction:column;
+    gap: 144px;
+}
+
+
+.faq.title h1{
+    width: 311px;
+    height: 24px;
+    font-weight: 700px;
+    size: 18px;
+    line-height: 24px;
+    color: #D9D9D9;
+    margin-bottom: 71px;
+    font-family:"Cinzel-700", serif;
+}
+
+.que.h {
+    font-family:"opensans-600", sans-serif;
+    color: #121111;
+    font-weight: 600;
+    font-size: 25px;
+    line-height: 34px;     
+}
+
+.line{
+    width: 700px;
+    border: 1px solid #75464A;
+    margin: 21.5px 0 43.5px 0;
+}
+
+.faq.all{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+
+
+/*contact*/
+
+.contact.title {
+    width: 113px;
+    height: 24px;
+    font-weight: 700px;
+    font-size: 18px;
+    line-height: 24px;
+    font-family:"Cinzel-700", serif;
+}
+
+.contact-info{
+    height: 116px;
+    font-size: 18px;
+    font-weight: 400px;
+    line-height: 28px;
+    text-shadow: #121111;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    font-family:"Cinzel-700", serif;
+}
+
+.working-hours{
+    display: flex;
+}
+
+form{
+    align-items: center;
+    margin: 0 90px;
+    padding: 100px 100px;
+}
+
+.inputs{
+    display: flex;
+    flex-direction: column;
+    gap:15px;
+    font-family:"Cinzel-400", serif;
+}
+
+.name{
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 15px;
+   
+}
+
+.email{
+    flex-direction:row;
+    justify-content: space-between;
+    gap:15px;
+}
+
+.tellus{
+    flex-direction: row;
+    justify-content: space-around;
+    gap:15px;
+}
+
+.inputs label{
+    font-size: 16px;
+    line-height: 22px;
+    color: #3D3D3D;
+    font-family:"Cinzel-400", serif;
+    margin: 10px;
+}
+
+.inputs input{
+    width: 525px;
+    height: 65.45px;
+    border: 1px solid rgba(117, 70, 74, 0.7);
+    border-radius: 10px;
+    padding: 4px 0 0 20px;
+}
+
+.inputs textarea{
+    width: 588px;
+    height: 400.76px;
+    font-size: 12px;
+    line-height: 16px;
+    padding: 4px 4px 4px 10px;
+    resize:none;
+}
